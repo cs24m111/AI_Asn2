@@ -1,6 +1,3 @@
-# AI_Asn2
-AI_ Assignment2
-
 # AI Assignment 2: Search and Optimization
 
 ## Overview
