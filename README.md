@@ -12,7 +12,7 @@
   - Frozen Lake
 - **For Hill Climbing & Simulated Annealing:**
   - Traveling Salesman Problem
-This project implements Hill Climbing and Simulated Annealing algorithms for solving the Traveling Salesman Problem using the [ant_colony_opt_TSP](https://github.com/MicheleCattaneo/ant_colony_opt_TSP) environment.
+   - This project implements Hill Climbing and Simulated Annealing algorithms for solving the Traveling Salesman Problem using the [ant_colony_opt_TSP](https://github.com/MicheleCattaneo/ant_colony_opt_TSP) environment.
 
 ## How to Run
 
