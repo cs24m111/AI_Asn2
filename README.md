@@ -1,8 +1,5 @@
 # AI Assignment 2: Search and Optimization
 
-## Overview
-
-Implement all the mentioned algorithms on one of the given environments and record the performance (reward, time, point of convergence). You are expected to submit a replicable GitHub repository and present a slide deck (maximum of six slides) on the results, explaining the reasons behind the observed performances. The slide deck should include GIFs of the implemented algorithms being executed in the environment, and you should also mention the heuristic function used.
 
 ## Algorithms to Implement
 - **Branch and Bound**
@@ -10,24 +7,16 @@ Implement all the mentioned algorithms on one of the given environments and reco
 - **Hill Climbing**
 - **Simulated Annealing**
 
-## Environments
+## Environments Used 
 - **For Branch and Bound & Iterative Deepening A*:**
   - Frozen Lake
-  - Ant Maze
 - **For Hill Climbing & Simulated Annealing:**
   - Traveling Salesman Problem
+This project implements Hill Climbing and Simulated Annealing algorithms for solving the Traveling Salesman Problem using the [ant_colony_opt_TSP](https://github.com/MicheleCattaneo/ant_colony_opt_TSP) environment.
 
-## Experimentation Details
+## How to Run
 
-### For Branch and Bound & Iterative Deepening A*
-- **Objective:** Plot the average time taken to reach the goal state.
-- **Testing:** Run at least five experiments.
-- **Termination:** Terminate the run if the goal state isn't reached even after some time τ has passed (consider τ = 10 minutes; modify as required).
-
-### For Hill Climbing & Simulated Annealing
-- **Objective:** Plot the average time taken to reach an optimum.
-- **Testing:** Run at least five experiments.
-- **Termination:** Terminate the run if the goal state isn't reached even after some time τ has passed (consider τ = 10 minutes; modify as required).
+1. Clone the repository:
 
 ## Useful Links
 - [Branch and Bound](https://en.wikipedia.org/wiki/Branch_and_bound)
