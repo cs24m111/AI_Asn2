@@ -1,7 +1,9 @@
 # AI Assignment 2: Search and Optimization
 
+## Slide Deck
+You can view the project slide deck [here](https://your-slide-deck-link.com).
 
-## Algorithms to Implement
+## Algorithms Implemented
 - **Branch and Bound**
 - **Iterative Deepening A***
 - **Hill Climbing**
