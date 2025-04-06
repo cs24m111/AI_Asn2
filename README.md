@@ -22,11 +22,33 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
 ### 1. For Branch and Bound
 - **Clone the repository:**
   ```bash
-  git clone <your-repo-url>
+  git clone https://github.com/cs24m111/AI_Asn2.git
   ```
 - **Navigate to the Branch and Bound directory:**
   ```bash
   cd branch_and_bound_directory
+  ```
+
+  ####  Setup Virtual Environment
+- **Create a virtual environment:**
+  ```bash
+  python -m venv env
+  ```
+
+#### Activate Virtual Environment
+- **On Windows:**
+  ```bash
+  env\Scripts\activate
+  ```
+- **On macOS and Linux:**
+  ```bash
+  source env/bin/activate
+  ```
+
+#### Install Necessary Libraries
+- **Install required libraries:**
+  ```bash
+  pip install gym matplotlib imageio
   ```
 - **Run the program:**
   ```bash
@@ -36,7 +58,7 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
 ### 2. For IDA*
 - **Clone the repository:**
   ```bash
-  git clone <your-repo-url>
+  git clone https://github.com/cs24m111/AI_Asn2.git
   ```
 - **Navigate to the IDA directory:**
   ```bash
