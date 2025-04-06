@@ -1,7 +1,7 @@
 # AI Assignment 2: Search and Optimization
 
 ## Slide Deck
-You can view the project slide deck [here]([https://your-slide-deck-link.com](https://docs.google.com/presentation/d/1cKPu2VHJLUg14HMbt6xgzbfkOXCBFfN0A2KFr2QLfNw/edit?usp=sharing).
+You can view the project slide deck ([here](https://docs.google.com/presentation/d/1cKPu2VHJLUg14HMbt6xgzbfkOXCBFfN0A2KFr2QLfNw/edit?usp=sharing)).
 
 ## Algorithms Implemented
 - **Branch and Bound**
