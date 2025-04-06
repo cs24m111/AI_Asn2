@@ -26,7 +26,7 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
   ```
 - **Navigate to the Branch and Bound directory:**
   ```bash
-  cd branch_and_bound_directory
+  cd AI_Asn2
   ```
 
   ####  Setup Virtual Environment
@@ -45,6 +45,13 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
   source env/bin/activate
   ```
 
+#### Activate Virtual Environment
+- **On Windows:**
+  ```bash
+  cd BnB\ and\ IDAStar
+  cd Bnb
+  ```
+
 #### Install Necessary Libraries
 - **Install required libraries:**
   ```bash
@@ -52,18 +59,10 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
   ```
 - **Run the program:**
   ```bash
-  python branch_and_bound.py
+  python bnb.py
   ```
 
 ### 2. For IDA*
-- **Clone the repository:**
-  ```bash
-  git clone https://github.com/cs24m111/AI_Asn2.git
-  ```
-- **Navigate to the IDA directory:**
-  ```bash
-  cd ida_star_directory
-  ```
 - **Run the program:**
   ```bash
   python ida_star.py
@@ -72,7 +71,6 @@ You can view the project slide deck [here](https://your-slide-deck-link.com).
 ### 3. For Hill Climbing (HC) and Simulated Annealing (SA)
 #### 3.1 Clone the Ant Colony Repository
 - **Clone the repository:**
-   - git clone <ant_colony_repo_url>
   ```bash
   git clone https://github.com/MicheleCattaneo/ant_colony_opt_TSP.git
   ```
