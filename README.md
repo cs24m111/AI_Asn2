@@ -14,9 +14,79 @@
   - Traveling Salesman Problem
    - This project implements Hill Climbing and Simulated Annealing algorithms for solving the Traveling Salesman Problem using the [ant_colony_opt_TSP](https://github.com/MicheleCattaneo/ant_colony_opt_TSP) environment.
 
+-----------------------------------------------------------------------------------------------
 ## How to Run
 
-1. Clone the repository:
+### 1. For Branch and Bound
+- **Clone the repository:**
+  ```bash
+  git clone <your-repo-url>
+  ```
+- **Navigate to the Branch and Bound directory:**
+  ```bash
+  cd branch_and_bound_directory
+  ```
+- **Run the program:**
+  ```bash
+  python branch_and_bound.py
+  ```
+
+### 2. For IDA*
+- **Clone the repository:**
+  ```bash
+  git clone <your-repo-url>
+  ```
+- **Navigate to the IDA directory:**
+  ```bash
+  cd ida_star_directory
+  ```
+- **Run the program:**
+  ```bash
+  python ida_star.py
+  ```
+
+### 3. For Hill Climbing (HC) and Simulated Annealing (SA)
+#### 3.1 Clone the Ant Colony Repository
+- **Clone the repository:**
+  ```bash
+  git clone <ant_colony_repo_url>
+  git clone https://github.com/MicheleCattaneo/ant_colony_opt_TSP.git
+  ```
+
+#### 3.2 Setup Virtual Environment
+- **Create a virtual environment:**
+  ```bash
+  python -m venv env
+  ```
+
+#### 3.3 Activate Virtual Environment
+- **On Windows:**
+  ```bash
+  env\Scripts\activate
+  ```
+- **On macOS and Linux:**
+  ```bash
+  source env/bin/activate
+  ```
+
+#### 3.4 Install Necessary Libraries
+- **Install required libraries:**
+  ```bash
+  pip install gym matplotlib imageio
+  ```
+
+#### 3.5 Run Hill Climbing (HC)
+- **Execute the Hill Climbing algorithm:**
+  ```bash
+  python tsp_hc.py
+  ```
+
+#### 3.6 Run Simulated Annealing (SA)
+- **Execute the Simulated Annealing algorithm:**
+  ```bash
+  python tsp_SA.py
+  ```
+--------------------------------------------------------------------------------------------------
 
 ## Useful Links
 - [Branch and Bound](https://en.wikipedia.org/wiki/Branch_and_bound)
