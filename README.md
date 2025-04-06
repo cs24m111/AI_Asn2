@@ -11,7 +11,7 @@ You can view the project slide deck [here]([https://your-slide-deck-link.com](ht
 
 ## Environments Used 
 - **For Branch and Bound & Iterative Deepening A*:**
-  - Frozen Lake
+  - Frozen Lake (gymnasium)
 - **For Hill Climbing & Simulated Annealing:**
   - Traveling Salesman Problem
    - This project implements Hill Climbing and Simulated Annealing algorithms for solving the Traveling Salesman Problem using the [ant_colony_opt_TSP](https://github.com/MicheleCattaneo/ant_colony_opt_TSP) environment.
