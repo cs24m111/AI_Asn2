@@ -48,7 +48,7 @@
 ### 3. For Hill Climbing (HC) and Simulated Annealing (SA)
 #### 3.1 Clone the Ant Colony Repository
 - **Clone the repository:**
-   - #git clone <ant_colony_repo_url>
+   - git clone <ant_colony_repo_url>
   ```bash
   git clone https://github.com/MicheleCattaneo/ant_colony_opt_TSP.git
   ```
